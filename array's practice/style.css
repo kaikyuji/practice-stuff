@@ -1,0 +1,28 @@
+body{
+    background: rgb(238, 135, 135);
+}
+header{
+    padding:15px;
+    text-align: center;
+}
+section{
+    padding: 15px;
+    margin:auto;
+    text-align: center;
+    background: white;
+    width: 500px;
+    border-radius:15px
+}
+p{
+    padding:5px;
+}
+div{
+    padding: 5px;
+}
+select{
+    width: 200px;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+}
