@@ -1,0 +1,46 @@
+body{
+    background:rgb(204, 187, 187);
+    font-family: Courier;
+    font-size: 20pt;
+}
+header{
+    text-align: center;
+    font:white;
+    padding: 15px;
+}
+section{
+    text-align: center;
+    background: white;
+    width: 600px;
+    margin: auto;
+    height: 800px;
+    border-radius: 15px;
+}
+div{
+    font-size:15pt;
+}
+
+img#fight{
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+}
+div#battlescreen{
+    padding: 15px;
+}
+div#versus{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:40pt;
+}
+img{
+    text-align: center;
+    margin: auto;
+    border-radius:40px;
+}
+select{
+    width:70pt;
+}
+div#yourfighter{
+    padding: 15px;
+
+}

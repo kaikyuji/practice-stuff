@@ -1,0 +1,32 @@
+body{
+    background:rgb(204, 187, 187);
+    font-family: Courier;
+    font-size: 20pt;
+}
+header{
+    text-align: center;
+    font:white;
+    padding: 15px;
+}
+section{
+    text-align: center;
+    background: white;
+    width: 600px;
+    margin: auto;
+    height: 800px;
+    border-radius: 15px;
+}
+div#battlescreen{
+    font-size:15pt;
+    padding: 15px;
+}
+img{
+    border-radius: 25px;
+}
+select{
+    width:500px;
+}
+
+footer{
+    text-align: center;
+}

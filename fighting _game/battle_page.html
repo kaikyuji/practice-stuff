@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>Battle</header>
+    <section>
+        <div id="battlescreen">
+            <div id="yourhp">HP</div>
+            <div id="yourfighter"></div>
+            <div id="versus">VS.</div>
+            <div id="otherfighter"></div>
+            <div id="opphp">HP</div>
+            <input type="button" value="Attack" onclick="attack()">
+        </div>
+        <div>
+            <p>Battle Log:</p>
+            <select id="battlelog" size="10">
+            </select>
+        </div>
+        <p id="leave"></p>
+    </section>
+    <footer>
+        &#169;KHTSU
+    </footer>
+    <script src="battle_interface.js"></script>
+    <script src="battle_system.js"></script>
+</body>
+</html>
