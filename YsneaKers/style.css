@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EFECCA;
+    min-height: 100vh;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #000;
+    width: 100%;
+    height: 10vh;
+    border: 2px solid black;
+    color: #fff;
+    font-family: Poppins ;
+}
+
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: 0.5s;
+    padding: 0px 20px;
+}
+
+.sections:hover{
+    background: rgba(200, 0, 0);
+}
+
+.sections-list{
+    position: absolute;
+    top: 10vh;
+    list-style: none;
+    visibility: hidden;
+    background: black;
+    padding: 20px;
+}
+
+.cart:hover{
+    background: #905D5D;
+}
+
+/*Aqui acabou o NAVBAR*/
+
+main{
+    width: 100%;
+    height: 80vh;
+    font-family: Poppins;
+}
+.welcome{
+    text-align: center;
+    margin: 10px 0;
+    height: 40vh;
+}
+
+.welcome img{
+    height: 90%;
+    max-width: 100%;
+}
+
+/*PRODUTOS NO MAIN*/
+.products{
+    display: flex;
+    background: #905D5D;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.sneakers{
+    text-align: center;
+    border: 2px solid black;
+}
+
+.sneakers img{
+    max-width: 100%;
+    transition: 0.5s;
+}
+
+.sneakers img:hover{
+    transform: rotate(180deg);
+}
+
+
+/*AQ ACABOU O MAIN*/
